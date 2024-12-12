@@ -16,8 +16,7 @@ public class Game {
   void judge() {
     if (d.me == 6) {
       System.out.println("当たり");
-    }
-    else {
+    }else {
       System.out.println("はずれ");
     }
   }
