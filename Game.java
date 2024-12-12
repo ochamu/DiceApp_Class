@@ -10,9 +10,15 @@ public class Game {
   void start() {
     p.turn(d);
     System.out.println(d.me);
+    judge();
   }
 
   void judge() {
-
+    if (d.me == 6) {
+      System.out.println("当たり");
+    }
+    else {
+      System.out.println("はずれ");
+    }
   }
 }
